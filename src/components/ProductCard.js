@@ -1,7 +1,7 @@
-import { useDispatch, useSelector } from "react-redux";
-import {add, remove } from "../store/cartSlice";
-import "./ProductCard.css";
 import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { add, remove } from "../store/cartSlice";
+import "./ProductCard.css";
 
 export const ProductCard = ({product}) => {
   const dispatch = useDispatch();

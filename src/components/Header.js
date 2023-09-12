@@ -1,6 +1,6 @@
-import { Link, NavLink } from "react-router-dom"; 
 import { useSelector } from "react-redux";
-import Logo from "../assets/logo.png"
+import { Link, NavLink } from "react-router-dom";
+import Logo from "../assets/logo.png";
 import "./Header.css";
 
 export const Header = () => {
@@ -10,7 +10,7 @@ export const Header = () => {
     <header>
       <Link to="/" className="logo">
         <img src={Logo} alt="Shopmate Logo" />
-        <span>REDUX CART</span>
+        <span>REDUX Shopmate CART</span>
       </Link>
       <nav className="navigation">
         <NavLink to="/" className="link" end>Home</NavLink>
